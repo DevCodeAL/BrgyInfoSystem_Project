@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   }
+
+   table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(4, 69, 69);
+    color: aliceblue;
+    
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+  background-color: rgb(21, 58, 58);
+  color: aliceblue;
+}
+
+
+   .form-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    position: relative;
+    left: 40px;
+    border-radius: 10px;
+   }
+
+   h4{
+    padding: 20px;
+   }
+
+   .add-icon{
+    display: block;
+    margin: 10px;
+    position: relative;
+    bottom: 16px;
+   }
+
+   .view-form{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0,0.4);
+   }
+
+   #form-action{
+    position: relative;
+    top: 25px;
+    background-color: white;
+    border: 1px solid #888;
+    margin: 70px;
+    border-radius: 10px;
+    padding: 16px;
+   }
+
+   .x-btn{
+    color: #aaa;
+    display: flex;
+    justify-content: end;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .x-btn:hover, .x-btn:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+   /*Modal Edit*/
+
+
+   .modal-edit-style{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0,0.4);
+   }
+
+   .modal-content-household{
+    position: relative;
+    top: 25px;
+    background-color: white;
+    border: 1px solid #888;
+    margin: 70px;
+    border-radius: 10px;
+    padding: 16px;
+   }
+
+   .close-content{
+    color: #aaa;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-content:hover, .close-content:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .update-btn{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+  }
+
+  .submit-btn{
+    display: flex;
+    justify-content: end;
+  }

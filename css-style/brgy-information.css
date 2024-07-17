@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   }
+
+   .data-container{
+    background-color: rgb(5, 83, 83);
+    color: aliceblue;
+    margin: 10px;
+   }
+
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+}
+
+.form-container > div{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.form-controls{
+    background-color: rgb(5, 83, 83);
+    color: aliceblue;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+}
+
+form{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 8px;
+}
+
+.btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+td{
+    padding: 10px;
+    font-weight: 500;
+}
+
+#Confirmation{
+    text-align: center;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    z-index: 1;
+    border: 1px solid black;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.ok-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+   
+}
+
+h4 {
+    padding: 20px;
+}

@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   }
+
+   body{
+    scroll-behavior: smooth;
+   }
+
+   .animation {
+    position: relative;
+    animation-name: hero;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+@keyframes hero {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+
+    to {
+        top: 20px;
+        opacity: 1; /* Added to make the visibility change explicit */
+    }
+}
+
+
+  
+.contain{
+    text-align: center;
+}
+
+
+  .sec-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 50px;
+    padding: 20px;
+  }
+
+  .sec-con > div{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+     width: 260px;
+    padding: 10px;
+  }
+
+  
+.element {
+  opacity: 0;
+  transform: translateY(20px); /* Initial position */
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.animate {
+  opacity: 1;
+  transform: translateY(0); /* Final position */
+}
+
+
+
+  .sec-con > div:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  }
+  .profile_{
+    width: 250px;
+  }
+
+  .text{
+   padding: 10px;
+  }
+
+  .history{
+    margin: 20px;
+    padding: 40px;
+    text-align: justify;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 180px;
+  }
+
+  .sections > div{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    width: 400px;
+    position: relative;
+    animation-name: main;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+  }
+
+@keyframes main {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+
+    to {
+        top: 20px;
+        opacity: 1; /* Added to make the visibility change explicit */
+    }
+}
+
+  
+  .containersss{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+
+  .containersss > div{
+    width: 400px;
+  }

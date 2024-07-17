@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   }   
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.main_page-style{
+    margin: 0px;
+}
+
+.main-container > div{
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100px;
+    width: 200px;
+}
+
+/*Box Container Data*/
+.t_household{
+    background-color: #0ca814;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.person-plus, .house-icon, .chart-icon, .person-listicon{
+    margin: 6px;
+}
+
+.t_Residence{
+    background-color: #19b0a3;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.t_Blotter{
+    background-color:#dab025;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.t_Official{
+    background-color: #e02209;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.records-container{
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 10px;
+    width: 100%;
+}
+
+
+#header{
+    display: flex;
+    background-color: #ad0718;
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+h6{
+    color: rgb(109, 101, 101);
+    margin-right: 8px;
+}
+
+.text{
+    color: rgb(109, 101, 101);
+    padding: 20px;
+}
+
+.list-icon{
+    margin: 6px;
+}
+
+.list-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#searchInput{ 
+   border-radius: 6px;
+   width: 300px; 
+   height: 35px;
+}
+
+thead{
+    background-color: rgb(21, 58, 58);
+    color: aliceblue;
+}
+
+tbody{
+    background-color: rgb(4, 69, 69);
+    color: aliceblue;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+}
