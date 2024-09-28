@@ -97,7 +97,7 @@ require('sk7-img-data.php');
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="services.php">Services</a>
+                            <a class="nav-link" href="">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
